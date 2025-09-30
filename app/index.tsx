@@ -8,7 +8,7 @@ import BT03 from "../components/BT03";
 import BT04 from "../components/BT04";
 import BT05 from "../components/BT05";
 import BT06 from "../components/BT06";
-import BT07 from "../components/BT07";
+// import BT07 from "../components/BT07";
 import BT08 from "../components/BT08";
 
 export default function HomePage() {
@@ -30,7 +30,7 @@ export default function HomePage() {
       case 6:
         return <BT06 />;
       case 7:
-        return <BT07 />;
+      // return <BT07 />;
       case 8:
         return <BT08 />;
       default:
